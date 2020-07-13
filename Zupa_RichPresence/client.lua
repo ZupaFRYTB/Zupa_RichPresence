@@ -1,7 +1,7 @@
 Citizen.CreateThread(function()
     while true do
         --Mettre le client ID (site pour avoir la structure avec le nom :  https://discordapp.com/developers/applications/ )
-        SetDiscordAppID(123456789) --Mettre le client id a la place des nombre avant
+        SetDiscordAppId(123456789) --Mettre le client id a la place des nombre avant
         -- Mettre une image sur son richpresence Allez sur le protail developpeur et mettre la photo souhaité 1024x1024
         SetDiscordRichPresenceAsset('Nom_du_logo')
 
